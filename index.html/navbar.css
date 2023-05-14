@@ -60,7 +60,7 @@ html {
     justify-content: space-around;
    
     /* background-color:  rgb(10, 198, 255); */
-    background-color:  rgba(0, 0, 0,0.7);
+    /* background-color:  rgba(0, 0, 0,0.5); */
     height: 60px ;
     /* box-shadow: 4px -2px 19px 3px; */
     position: sticky;
@@ -406,8 +406,8 @@ section{
   justify-content: center;
 }
 #main-loader-box{
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   position: relative;
  
  
@@ -416,7 +416,7 @@ section{
   align-items: center;
   justify-content: center;
  border-radius: 50%;
-  border-top:6px solid #02b7ff;
+  border-top:3px solid #02b7ff;
   animation-name: loader;
   animation-duration: .5s;
   animation-timing-function: linear;
@@ -711,11 +711,13 @@ span:hover{
   color: black;
   background-color: whitesmoke;
   font-weight: 600;
+  
+  
  
 }
 
 article{
-  margin-top: 115px;
+  margin-top: 0px;
   display: none;
  
 }
@@ -904,6 +906,15 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .associate-heading{
   color: goldenrod;
+}
+
+.sidebar-anchor{
+  color: goldenrod;
+}
+
+#navbar{
+  backdrop-filter: blur(6px);
+  
 }
 
 

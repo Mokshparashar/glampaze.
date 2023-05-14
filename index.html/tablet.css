@@ -422,8 +422,8 @@ section{
   justify-content: center;
 }
 #main-loader-box{
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   position: relative;
  
  
@@ -432,11 +432,12 @@ section{
   align-items: center;
   justify-content: center;
  border-radius: 50%;
-  border-top:6px solid #02b7ff;
+  border-top:3px solid #02b7ff;
   animation-name: loader;
   animation-duration: .5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+ 
   
 }
 @keyframes loader{
@@ -1018,6 +1019,15 @@ article{
   font-size: 20px;
   font-weight: 900;
   cursor: pointer;
+}
+
+.sidebar-anchor{
+  color: goldenrod;
+}
+.slider-img{
+  width: 100%;
+  height: 25vh;
+  overflow-y: hidden;
 }
 
 

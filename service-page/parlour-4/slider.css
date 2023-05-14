@@ -5,8 +5,9 @@
     position: relative;
     margin: auto;
     box-shadow: goldenrod 0px 0.0625em 0.0625em, goldenrod 0px 0.125em 0.5em, goldenrod 0px 0px 0px 1px inset;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     display: none;
+   
     
   }
   
@@ -96,7 +97,7 @@
     to {opacity: 1}
   }
   img{
-      border-radius: 20px;
+      /* border-radius: 20px; */
   }
 
  

@@ -25,15 +25,15 @@ html{
 
 .slider-img{
     width: 100%;
-    height: 100%;
+    height:100%;
 }
 .cbx-25{
 
 }
 #loader-box{
-  width: 60px;
-  height: 60px;
-  border-top: 6px solid #02b7ff;
+  width: 40px;
+  height: 40px;
+  border-top: 3px solid #02b7ff;
   border-radius: 50%;
   position: relative;
   animation-name: loader;
@@ -234,8 +234,13 @@ html{
 }
 
 .slideshow-container{
-    overflow-x: hidden;
-    height: 30vh;
+   
+    height: 25vh;
+}
+
+.slider-img{
+    width: 100%;
+    height: 25vh;
 }
 
 #prizing-heading{

@@ -668,3 +668,13 @@ li{
 #profile-box{
     margin-bottom: 40px;
 }
+.slideshow-container{
+    
+    height: 25vh;
+}
+.slider-img{
+    width: 100%;
+    height: 25vh;
+    
+  }
+  
