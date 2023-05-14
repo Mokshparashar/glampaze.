@@ -905,7 +905,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 .associate-heading{
-  color: goldenrod;}
+  color: goldenrod;
+}
 #navbar{
   background: none;
   backdrop-filter: blur(6px);
@@ -916,7 +917,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 #navbar{
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(3px);
   
 }
 
